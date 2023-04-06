@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 body {
@@ -17,7 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  background-color:#fff;
   padding: 20px;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
 }
@@ -36,26 +37,32 @@ header {
 }
 
 .nav a {
-  color: #333;
+  display: block;
+  text-align: left;
+  color: rgb(178, 169, 169);
   text-decoration: none;
   margin-left: 20px;
 }
 
 .nav a:hover {
-  color: #f00;
+  color: black;
 }
+.nav li{
+  float: left;
+}
+
 
 /* Hero Section Styles */
 .hero {
-  display: flex;
+  
+  display: wrap;
   justify-content: center;
   align-items: center;
   height: 80vh;
-  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba");
+  background-image: url("https://images.ctfassets.net/4f3rgqwzdznj/4IPtB6YNbhB6VKcH5c5wwS/4ddf7ad3cc59e8af7bf18fad0f2f0156/golden_retriever_gray_cat-1027475322.jpg");
   background-size: cover;
   background-position: center;
 }
-
 .hero h1 {
   font-size: 64px;
   font-weight: bold;
@@ -73,10 +80,13 @@ header {
     transform: translateY(0%);
   }
 }
-
+.hero h2{
+  text-align: center;
+  animation: slideInUp 1s ease;
+}
 .hero p {
   font-size: 24px;
-  color: #fff;
+  color: #333;
   text-align: center;
   margin-top: 20px;
   animation: slideInUp 1s ease;
@@ -89,6 +99,13 @@ header {
   100% {
     transform: translateY(0%);
   }
+}
+.hero a{
+  padding: 10px 20px;
+  color: #333;
+  background: #f2f2f2;
+  border: 1px solid black;
+
 }
 
 /* Features Section Styles */
@@ -164,3 +181,4 @@ header {
         background-color: #4CAF50;
         color: white;
       }
+
