@@ -59,7 +59,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 92vh;
-    background-image: url(https://images.ctfassets.net/4f3rgqwzdznj/4IPtB6YNbhB6VKcH5c5wwS/4ddf7ad…/golden_retriever_gray_cat-1027475322.jpg);
+    background-image: url("https://images.ctfassets.net/4f3rgqwzdznj/4IPtB6YNbhB6VKcH5c5wwS/4ddf7ad…/golden_retriever_gray_cat-1027475322.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
