@@ -58,10 +58,11 @@ header {
   display: wrap;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   background-image: url("https://images.ctfassets.net/4f3rgqwzdznj/4IPtB6YNbhB6VKcH5c5wwS/4ddf7ad3cc59e8af7bf18fad0f2f0156/golden_retriever_gray_cat-1027475322.jpg");
   background-size: cover;
   background-position: center;
+  
 }
 .hero h1 {
   font-size: 64px;
